@@ -22,11 +22,11 @@ def check_password_strength(password):
         score += 1
 
     if score == 5:
-        print("Strong Password ✅")
+        print("Strong Password ")
     elif score >= 3:
-        print("Medium Password ⚠️")
+        print("Medium Password ")
     else:
-        print("Weak Password ❌")
+        print("Weak Password ")
 
 
 password = input("Enter your password: ")
